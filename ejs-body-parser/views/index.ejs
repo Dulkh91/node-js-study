@@ -1,0 +1,22 @@
+<%- include("head"); -%>
+
+<a href="/form"><button class="btn-rg">Register</button></a>
+<div class="table-box">
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Phone number</th>
+        </tr>
+        <% myTable.forEach((d)=>{ %>
+            <tr>
+                <td><%= d.name %></td>
+                <td><%= d.phones %></td>
+            </tr>
+
+       <% }) %>
+        
+    </table>
+</div>
+
+
+<%- include("footer"); -%>    

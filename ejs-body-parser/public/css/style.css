@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.btn-rg{
+    padding: 15px;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-left: 90%;
+}
+.table-box{
+    display: block;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.table-box table{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    top: 10px;
+}
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    margin-top: 10px;
+    
+}
+
+.box{
+    position: absolute;
+    width: 450px;
+    height: 300px;
+    background-color:burlywood;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    align-content: center;
+    text-align: center;
+}
+.box input{
+    position: relative;
+    width: 90%;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 8px;
+    border-color: burlywood;
+    font-size: 16px;
+}
+.box button{
+    background-color: beige;
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 20px;
+    font-size: 15px;
+    cursor: pointer;
+    border-color: bisque;
+    
+    
+}
