@@ -74,6 +74,16 @@ app.post("/", (req,res)=>{
     // console.log(dataUpdate)
 })
 
+// Find by limit by query 
+app.get("/limit", (req, res)=>{
+    // url is => http://localhost:3000/limit?page=10
+    const num = req.query.page
+    Krdictionary.find({}).limit(/*10*/ num)
+   .then((t)=>{res.send(console.log(t.length))})
+   .catch((e)=>{console.log(`Errer is ${e}`)})
+
+})
+
 
 const port = process.env.PORT || 2000;
 app.listen(port, () => {
